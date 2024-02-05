@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  СheckSharingProject1
+//  WeSplit
 //
-//  Created by Анастасия Ларина on 04.02.2024.
+//  Created by Анастасия Ларина on 05.02.2024.
 //
 
 import SwiftUI

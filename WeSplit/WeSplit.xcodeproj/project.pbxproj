@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2EEB1CA52B6FF12A00752548 /* _heckSharingProject1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB1CA42B6FF12A00752548 /* _heckSharingProject1App.swift */; };
-		2EEB1CA72B6FF12A00752548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB1CA62B6FF12A00752548 /* ContentView.swift */; };
-		2EEB1CA92B6FF13300752548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB1CA82B6FF13300752548 /* Assets.xcassets */; };
-		2EEB1CAC2B6FF13300752548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB1CAB2B6FF13300752548 /* Preview Assets.xcassets */; };
+		2EEB1CBF2B709D1C00752548 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB1CBE2B709D1C00752548 /* WeSplitApp.swift */; };
+		2EEB1CC12B709D1C00752548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB1CC02B709D1C00752548 /* ContentView.swift */; };
+		2EEB1CC32B709D2000752548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB1CC22B709D2000752548 /* Assets.xcassets */; };
+		2EEB1CC62B709D2000752548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB1CC52B709D2000752548 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2EEB1CA12B6FF12A00752548 /* СheckSharingProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "СheckSharingProject1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EEB1CA42B6FF12A00752548 /* _heckSharingProject1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _heckSharingProject1App.swift; sourceTree = "<group>"; };
-		2EEB1CA62B6FF12A00752548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2EEB1CA82B6FF13300752548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2EEB1CAB2B6FF13300752548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EEB1CBB2B709D1C00752548 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEB1CBE2B709D1C00752548 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
+		2EEB1CC02B709D1C00752548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2EEB1CC22B709D2000752548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EEB1CC52B709D2000752548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2EEB1C9E2B6FF12A00752548 /* Frameworks */ = {
+		2EEB1CB82B709D1C00752548 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EEB1C982B6FF12900752548 = {
+		2EEB1CB22B709D1C00752548 = {
 			isa = PBXGroup;
 			children = (
-				2EEB1CA32B6FF12A00752548 /* СheckSharingProject1 */,
-				2EEB1CA22B6FF12A00752548 /* Products */,
+				2EEB1CBD2B709D1C00752548 /* WeSplit */,
+				2EEB1CBC2B709D1C00752548 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2EEB1CA22B6FF12A00752548 /* Products */ = {
+		2EEB1CBC2B709D1C00752548 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2EEB1CA12B6FF12A00752548 /* СheckSharingProject1.app */,
+				2EEB1CBB2B709D1C00752548 /* WeSplit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2EEB1CA32B6FF12A00752548 /* СheckSharingProject1 */ = {
+		2EEB1CBD2B709D1C00752548 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				2EEB1CA42B6FF12A00752548 /* _heckSharingProject1App.swift */,
-				2EEB1CA62B6FF12A00752548 /* ContentView.swift */,
-				2EEB1CA82B6FF13300752548 /* Assets.xcassets */,
-				2EEB1CAA2B6FF13300752548 /* Preview Content */,
+				2EEB1CBE2B709D1C00752548 /* WeSplitApp.swift */,
+				2EEB1CC02B709D1C00752548 /* ContentView.swift */,
+				2EEB1CC22B709D2000752548 /* Assets.xcassets */,
+				2EEB1CC42B709D2000752548 /* Preview Content */,
 			);
-			path = "СheckSharingProject1";
+			path = WeSplit;
 			sourceTree = "<group>";
 		};
-		2EEB1CAA2B6FF13300752548 /* Preview Content */ = {
+		2EEB1CC42B709D2000752548 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2EEB1CAB2B6FF13300752548 /* Preview Assets.xcassets */,
+				2EEB1CC52B709D2000752548 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2EEB1CA02B6FF12A00752548 /* СheckSharingProject1 */ = {
+		2EEB1CBA2B709D1C00752548 /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EEB1CAF2B6FF13300752548 /* Build configuration list for PBXNativeTarget "СheckSharingProject1" */;
+			buildConfigurationList = 2EEB1CC92B709D2000752548 /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
-				2EEB1C9D2B6FF12A00752548 /* Sources */,
-				2EEB1C9E2B6FF12A00752548 /* Frameworks */,
-				2EEB1C9F2B6FF12A00752548 /* Resources */,
+				2EEB1CB72B709D1C00752548 /* Sources */,
+				2EEB1CB82B709D1C00752548 /* Frameworks */,
+				2EEB1CB92B709D1C00752548 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "СheckSharingProject1";
-			productName = "СheckSharingProject1";
-			productReference = 2EEB1CA12B6FF12A00752548 /* СheckSharingProject1.app */;
+			name = WeSplit;
+			productName = WeSplit;
+			productReference = 2EEB1CBB2B709D1C00752548 /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2EEB1C992B6FF12A00752548 /* Project object */ = {
+		2EEB1CB32B709D1C00752548 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					2EEB1CA02B6FF12A00752548 = {
+					2EEB1CBA2B709D1C00752548 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 2EEB1C9C2B6FF12A00752548 /* Build configuration list for PBXProject "СheckSharingProject1" */;
+			buildConfigurationList = 2EEB1CB62B709D1C00752548 /* Build configuration list for PBXProject "WeSplit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 2EEB1C982B6FF12900752548;
-			productRefGroup = 2EEB1CA22B6FF12A00752548 /* Products */;
+			mainGroup = 2EEB1CB22B709D1C00752548;
+			productRefGroup = 2EEB1CBC2B709D1C00752548 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2EEB1CA02B6FF12A00752548 /* СheckSharingProject1 */,
+				2EEB1CBA2B709D1C00752548 /* WeSplit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2EEB1C9F2B6FF12A00752548 /* Resources */ = {
+		2EEB1CB92B709D1C00752548 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EEB1CAC2B6FF13300752548 /* Preview Assets.xcassets in Resources */,
-				2EEB1CA92B6FF13300752548 /* Assets.xcassets in Resources */,
+				2EEB1CC62B709D2000752548 /* Preview Assets.xcassets in Resources */,
+				2EEB1CC32B709D2000752548 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2EEB1C9D2B6FF12A00752548 /* Sources */ = {
+		2EEB1CB72B709D1C00752548 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EEB1CA72B6FF12A00752548 /* ContentView.swift in Sources */,
-				2EEB1CA52B6FF12A00752548 /* _heckSharingProject1App.swift in Sources */,
+				2EEB1CC12B709D1C00752548 /* ContentView.swift in Sources */,
+				2EEB1CBF2B709D1C00752548 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2EEB1CAD2B6FF13300752548 /* Debug */ = {
+		2EEB1CC72B709D2000752548 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		2EEB1CAE2B6FF13300752548 /* Release */ = {
+		2EEB1CC82B709D2000752548 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +259,14 @@
 			};
 			name = Release;
 		};
-		2EEB1CB02B6FF13300752548 /* Debug */ = {
+		2EEB1CCA2B709D2000752548 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"СheckSharingProject1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				DEVELOPMENT_TEAM = 3VJYN6Z9BM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.anastasialarina.-heckSharingProject1";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.anastasialarina.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -288,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		2EEB1CB12B6FF13300752548 /* Release */ = {
+		2EEB1CCB2B709D2000752548 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"СheckSharingProject1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				DEVELOPMENT_TEAM = 3VJYN6Z9BM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.anastasialarina.-heckSharingProject1";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.anastasialarina.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2EEB1C9C2B6FF12A00752548 /* Build configuration list for PBXProject "СheckSharingProject1" */ = {
+		2EEB1CB62B709D1C00752548 /* Build configuration list for PBXProject "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EEB1CAD2B6FF13300752548 /* Debug */,
-				2EEB1CAE2B6FF13300752548 /* Release */,
+				2EEB1CC72B709D2000752548 /* Debug */,
+				2EEB1CC82B709D2000752548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2EEB1CAF2B6FF13300752548 /* Build configuration list for PBXNativeTarget "СheckSharingProject1" */ = {
+		2EEB1CC92B709D2000752548 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EEB1CB02B6FF13300752548 /* Debug */,
-				2EEB1CB12B6FF13300752548 /* Release */,
+				2EEB1CCA2B709D2000752548 /* Debug */,
+				2EEB1CCB2B709D2000752548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2EEB1C992B6FF12A00752548 /* Project object */;
+	rootObject = 2EEB1CB32B709D1C00752548 /* Project object */;
 }
