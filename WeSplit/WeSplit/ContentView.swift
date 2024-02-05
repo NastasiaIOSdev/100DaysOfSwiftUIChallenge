@@ -8,14 +8,79 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var checkAmount = 0.0
+    @State private var numberOfPeople = 2
+    @State private var tipPersentage2 = 0
+    @State private var tipPersentage = 20
+    @FocusState private var amountIsFocused: Bool
+    
+    let tipPersantages = [10, 15, 20, 25, 0]
+    
+    var totalPerPerson: Double {
+        let peopleCount = Double(numberOfPeople + 2)
+        let tipSelection = Double(tipPersentage2)
+        let tipValue = checkAmount / 100 * tipSelection
+        let grandTotal = checkAmount + tipValue
+        let amountPerPerson = grandTotal / peopleCount
+        return amountPerPerson
+    }
+    
+    var totalAmount: Double {
+        let peopleCount = Double(numberOfPeople + 2)
+        let totalAmountBeel = Double(totalPerPerson * peopleCount)
+        return totalAmountBeel
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack{
+            Form {
+                Section {
+                    TextField("Amount", value: $checkAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                        .keyboardType(.decimalPad)
+                        .focused($amountIsFocused)
+                    
+                    Picker("Number of people", selection: $numberOfPeople) {
+                        ForEach(2..<100) {
+                            Text("\($0) people")
+                        }
+                    }
+                }
+                
+//                Section("How mach do you want to tip") {
+//                    Picker("Tip persentage", selection: $tipPersentage) {
+//                        ForEach(tipPersantages, id: \.self) {
+//                            Text($0, format: .percent)
+//                        }
+//                    }
+//                    .pickerStyle(.segmented)
+//                }
+                
+                Section("How mach do you want to tip") {
+                    Picker("Tip persentage", selection: $tipPersentage2) {
+                        ForEach(0..<101, id: \.self) {
+                            Text("\($0) percent")
+                        }
+                    }
+                    .pickerStyle(.navigationLink)
+                }
+                
+                Section("Amount per person") {
+                    Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                }
+                
+                Section("Total amount") {
+                    Text(totalAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                }
+            }
+            .navigationTitle("WeSplit")
+            .toolbar {
+                if amountIsFocused {
+                    Button("Done") {
+                        amountIsFocused = false
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
