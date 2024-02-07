@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var tipPersentage = 20
     @FocusState private var amountIsFocused: Bool
     
-    let tipPersantages = [10, 15, 20, 25, 0]
+    var tipPersantages = [10, 15, 20, 25, 0]
     
     var totalPerPerson: Double {
         let peopleCount = Double(numberOfPeople + 2)
@@ -45,16 +45,7 @@ struct ContentView: View {
                         }
                     }
                 }
-                
-//                Section("How mach do you want to tip") {
-//                    Picker("Tip persentage", selection: $tipPersentage) {
-//                        ForEach(tipPersantages, id: \.self) {
-//                            Text($0, format: .percent)
-//                        }
-//                    }
-//                    .pickerStyle(.segmented)
-//                }
-                
+                                
                 Section("How mach do you want to tip") {
                     Picker("Tip persentage", selection: $tipPersentage2) {
                         ForEach(0..<101, id: \.self) {
@@ -69,7 +60,13 @@ struct ContentView: View {
                 }
                 
                 Section("Total amount") {
-                    Text(totalAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                    if tipPersentage2 == tipPersantages[4] {
+                        Text(totalAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                            .foregroundStyle(.red)
+                    } else {
+                        Text(totalAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                            .foregroundStyle(.black)
+                    }
                 }
             }
             .navigationTitle("WeSplit")
