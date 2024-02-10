@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  ColorMixer
+
+  Created by Анастасия Ларина on 11.02.2024.
+  
+*/
+
+"Color Mixer" = "Смешивание цветов";
+"Red" = "Красный";
+"Blue" = "Голубой";
+"Green" = "Зеленый";
+"Yellow" = "Желтый";
+"Black" = "Черный";
+"Orange" = "Оранжевый";
+"White" = "Белый";
+"Select Color" = "Выберите цвет";
