@@ -5,12 +5,12 @@
       "scale" : "1x"
     },
     {
-      "filename" : "Ireland@2x.png",
+      "filename" : "US@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Ireland@3x.png",
+      "filename" : "US@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
